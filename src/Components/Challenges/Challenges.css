@@ -1,0 +1,72 @@
+.challenges{
+    width: 100%;
+    height: 100vh;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.challenges h1{
+
+font-family: Poppins;
+font-size: 32px;
+font-weight: 600;
+line-height: 20px;
+text-align: center;
+
+}
+.challenges h1 span{
+    color: seagreen;
+}
+.challenges-grid{
+
+    display: grid;
+    grid-template-columns: 0.5fr 2fr ;
+    align-items: center;
+    grid-row: auto;
+    gap: 30px;
+    margin-left: 200px; 
+    
+
+}
+.card{
+    width: 542px;
+    background: #F8F9FD;
+    height: 276px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    border: none;
+    
+
+}
+
+.card-h3{
+font-family: Poppins;
+font-size: 24px;
+font-weight: 600;
+line-height: 50px;
+letter-spacing: -0.03em;
+text-align: left;
+
+}
+.card-text{
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: -0.02em;
+text-align: left;
+
+}
+.card-img-top{
+width: 43px;
+height: 43px;
+margin-left: 20px;
+margin-top: 30px;
+
+}

@@ -1,0 +1,87 @@
+.Herosection-main{
+    width: 100%;
+    height: 80vh;
+    background: #003145;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.Herosection-left{
+    width: 900px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 200px;
+    
+}
+.Herosection-left h1{
+font-family: Poppins;
+font-size: 48px;
+font-weight: 600;
+line-height: 56px;
+text-align: left;
+/* background: #FFFFFF; */
+color: #FFFFFF;
+display: flex;
+flex-direction: column;
+position: relative;
+display: flex;
+
+
+}
+.Herosection-left p{
+font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+color: #FFFFFF;
+
+}
+.Herosection-left button{
+width: 198px;
+height: 47px;
+border-radius: 10px;
+border: none;
+background: #FFFFFF;
+font-family: Poppins;
+font-size: 18px;
+font-weight: 600;
+line-height: 18px;
+text-align: center;
+color: #003145;
+
+
+}
+
+.rectanglae{
+width: 9.71px;
+height: 115.91px;
+top: 188px;
+left: 143px;
+gap: 0px;
+opacity: 0px;
+background: #FFCE5C;
+position: absolute;
+left: 130px;
+top: 180px;
+
+
+}
+.Herosection-right {
+position: relative;
+width: 400px;
+right: 100px;
+bottom: 10px;
+
+
+}
+.Herosection-right image{
+    width: 400px;
+    height: 100px;
+}
